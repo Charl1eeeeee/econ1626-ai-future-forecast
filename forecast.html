@@ -137,3 +137,130 @@
     </ul>
   </div>
 </section>
+
+
+<section id="interactive-evidence" class="essay-section interactive-section">
+  <h2>7. Interactive Evidence and Visuals</h2>
+
+  <p>
+    This article uses three interactive visuals to make the forecast more transparent. The figures are not presented as precise empirical predictions. They are illustrative scenario assumptions based on evidence about GenAI productivity, accounting task reallocation, invoice automation and IT governance risks (Choi and Xie 2026; Krieger, Drews and Funk 2023; Almaqtari 2024).
+  </p>
+
+  <div class="visual-block" id="task-exposure-chart">
+    <h3>Visual 1: Task Exposure Chart</h3>
+    <p>
+      The task exposure chart ranks accounting activities by their likely exposure to generative AI. Routine, data-heavy and document-based tasks such as bookkeeping, tax preparation and audit support are shown as more exposed, while advisory work is shown as less exposed because it depends more heavily on professional judgement, client communication and contextual interpretation.
+    </p>
+
+    <table class="visual-table">
+      <thead>
+        <tr>
+          <th>Accounting task</th>
+          <th>Illustrative AI exposure</th>
+          <th>Reason</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bookkeeping</td>
+          <td>High</td>
+          <td>Structured transactions and repeated classification</td>
+        </tr>
+        <tr>
+          <td>Tax preparation</td>
+          <td>High</td>
+          <td>Document sorting, rule summarisation and first-draft preparation</td>
+        </tr>
+        <tr>
+          <td>Financial reporting</td>
+          <td>Medium-high</td>
+          <td>Drafting and data preparation can be automated, but review remains human-led</td>
+        </tr>
+        <tr>
+          <td>Audit support</td>
+          <td>Medium-high</td>
+          <td>AI can assist anomaly detection and evidence review, but audit judgement remains professional</td>
+        </tr>
+        <tr>
+          <td>Management accounting</td>
+          <td>Medium</td>
+          <td>Forecasting and analysis can be supported, but business context matters</td>
+        </tr>
+        <tr>
+          <td>Advisory</td>
+          <td>Low-medium</td>
+          <td>Client trust, judgement, communication and strategy are harder to automate fully</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="visual-block" id="scenario-switcher">
+    <h3>Visual 2: Scenario Switcher</h3>
+    <p>
+      The scenario switcher allows readers to compare the baseline, upside and downside futures. When a reader selects a scenario, the page displays the expected direction of productivity, employment pressure, trust risk and industry concentration. This visual connects the scenario analysis to the economic channels discussed earlier in the article.
+    </p>
+
+    <div class="scenario-preview">
+      <button type="button" data-scenario="baseline">Baseline</button>
+      <button type="button" data-scenario="upside">Upside</button>
+      <button type="button" data-scenario="downside">Downside</button>
+    </div>
+
+    <table class="visual-table">
+      <thead>
+        <tr>
+          <th>Scenario</th>
+          <th>Productivity</th>
+          <th>Employment pressure</th>
+          <th>Trust risk</th>
+          <th>Industry concentration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Baseline</td>
+          <td>Moderate increase</td>
+          <td>Moderate</td>
+          <td>Moderate</td>
+          <td>Gradual increase</td>
+        </tr>
+        <tr>
+          <td>Upside</td>
+          <td>Strong increase</td>
+          <td>Managed through reskilling</td>
+          <td>Low if governance is strong</td>
+          <td>Balanced if smaller firms adopt AI tools</td>
+        </tr>
+        <tr>
+          <td>Downside</td>
+          <td>Short-term increase</td>
+          <td>High for junior roles</td>
+          <td>High</td>
+          <td>High</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="visual-block" id="ai-adoption-slider">
+    <h3>Visual 3: AI Adoption Slider</h3>
+    <p>
+      The AI adoption slider lets readers test different adoption assumptions, such as 20%, 40%, 60% or 80% AI adoption across accounting workflows. Higher adoption increases routine task automation and potential productivity gains, but it also increases entry-level job pressure and governance risk if regulation, training and review systems are weak.
+    </p>
+
+    <label for="adoption-rate">Illustrative AI adoption rate:</label>
+    <input type="range" id="adoption-rate" name="adoption-rate" min="20" max="80" step="20" value="40">
+
+    <div class="slider-assumptions">
+      <p><strong>20% adoption:</strong> AI is mostly used for drafting, summarisation and basic research.</p>
+      <p><strong>40% adoption:</strong> AI is integrated into routine bookkeeping, reporting and client communication.</p>
+      <p><strong>60% adoption:</strong> AI supports invoice processing, reconciliations, tax document sorting and audit evidence review.</p>
+      <p><strong>80% adoption:</strong> AI becomes deeply embedded in accounting workflows, raising productivity but also increasing the need for governance, audit trails and human accountability.</p>
+    </div>
+  </div>
+
+  <p class="methods-note">
+    Method note: all exposure levels and adoption-rate effects in this section are illustrative estimates designed for scenario comparison. They should be read as transparent modelling assumptions, not as measured forecasts.
+  </p>
+</section>
